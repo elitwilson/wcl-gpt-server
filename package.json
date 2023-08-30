@@ -1,0 +1,16 @@
+{
+  "name": "wcl-gpt-server",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --pretty --transpile-only src/index.ts"
+  },
+  "dependencies": {
+    "koa": "^2.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "@types/koa": "^2.x.x",
+    "typescript": "^4.x.x",
+    "ts-node-dev": "^1.x.x"
+  }
+}
